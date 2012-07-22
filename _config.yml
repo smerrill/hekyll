@@ -2,7 +2,12 @@ pygments: true
 permalink: "/:title"
 
 ## Hekyll Configuration ##
+theme: "hekyll" # add the name of a theme. Your theme's name should also be the name of the css file. (e.g. "hekyll" will be /css/themes/hekyll/hekyll.css).
+
 simple-slideshow: false  # true/false -- when enabled, slide positioning is ignored and a simple cross-fade will be used to transition between slides.
+
+presenter-notes: false   # true/false -- when enabled, visiting the first slide will open a Javascript popup window. The popup window will show the content
+                         # in a <div> or <span> with the class "presenter-notes" in that popup so that you can put it on a second screen.
 
 overview: true # true/false -- enabling this will add an overview slide at the end of the presentation. The overview slide will not display if simple-slideshow, above, is enabled.
 overview-data:
